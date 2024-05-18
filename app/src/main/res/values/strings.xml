@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Escooter</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home_text">Campus\nE-scooter\nRental</string>
+    <string name="home_button_text">Get Started</string>
+    <string name="map_button_text">Get Started</string>
+</resources>
