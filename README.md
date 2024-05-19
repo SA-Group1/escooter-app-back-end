@@ -1,2 +1,1 @@
-# Escooter_project
- 
+# escooter-app

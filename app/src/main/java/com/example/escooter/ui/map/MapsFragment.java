@@ -159,12 +159,12 @@ public class MapsFragment extends Fragment {
                 if (location != null) {
                     LatLng currentLatLng = new LatLng(location.getLatitude(), location.getLongitude());
                     LatLng markerLatLng = marker.getPosition();
-                    PolylineOptions currentPolyline = new PolylineOptions()
+                    PolylineOptions Polyline = new PolylineOptions()
                             .add(currentLatLng)
                             .add(markerLatLng)
                             .color(0xffD08343)
                             .width(14);
-                    googleMap.addPolyline(currentPolyline);
+                    currentPolyline = googleMap.addPolyline(Polyline);
                 }
             });
 
@@ -172,7 +172,7 @@ public class MapsFragment extends Fragment {
         });
     }
     private void setRentableEscooter(){
-        String apiUrl = "http://36.232.105.97:8080/api/getRentableEscooterList";
+        String apiUrl = "http://36.232.88.50:8080/api/getRentableEscooterList";
         JSONObject postData = new JSONObject();
         try {
             postData.put("longitude", "120.534454");

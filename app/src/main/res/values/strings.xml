@@ -1,9 +1,55 @@
 <resources>
-    <string name="app_name">Escooter</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="home_text">Campus\nE-scooter\nRental</string>
+    <string name="app_name">Yunscoo</string>
+    <string name="app_description1">Welcome to Yunscoo</string>
+    <string name="app_description2">Join the most most convenient transportation</string>
+    <string name="app_description3">method in Yuntech.</string>
+    <string name="app_description4">Join yunscoo to enjoy</string>
+    <string name="app_description5">e-scooter</string>
+    <string name="account_login">Account Information</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="home_text">Campus\ne-scooter\nRental</string>
     <string name="home_button_text">Get Started</string>
-    <string name="map_button_text">Get Started</string>
+    <string name="profile_button_text">Profile</string>
+    <string name="payment_button_text">Payment</string>
+    <string name="rent_record_button_text">Rent Record</string>
+    <string name="nearst_button_text">Nearst</string>
+    <string name="person_name">Stave Torn</string>
+    <string name="persono_info">Personal discount available</string>
+    <string name="scooter_model">Yunscoo1</string>
+    <string name="scooter_id">NYKD-114514</string>
+    <string name="rent_record_number">#NMSL-7414</string>
+    <string name="rent_record_time">2021/5/16 11:25</string>
+    <string name="return_record_time">2021/5/16 12:10</string>
+    <string name="fee_text">fee per/min</string>
+    <string name="rent_time_text">renting time</string>
+    <string name="fee_image">$ </string>
+    <string name="total_fee_image">$</string>
+    <string name="fee">10</string>
+    <string name="total_fee">201</string>
+    <string name="rent_time">51</string>
+    <string name="rent_time_unit">min</string>
+    <string name="add_card_text">Add a new credit/debit card</string>
+    <!-- Strings related to login -->
+    <string name="show_password">Show Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="invalid_input">Invalid input. Please check your username and password.</string>
+    <string name="prompt_account">Account</string>
+    <string name="prompt_phone_number">Phone Number</string>
+    <string name="prompt_user_name">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="action_log_in">Login</string>
+    <string name="action_sign_up">Signup</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="prompt_select_option">User Identity</string>
+    <string-array name="spinner_options">
+        <item>User Identity</item>
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
