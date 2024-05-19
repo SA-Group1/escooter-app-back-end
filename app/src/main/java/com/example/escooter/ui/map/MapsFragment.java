@@ -190,10 +190,11 @@ public class MapsFragment extends Fragment {
                 while (keys.hasNext()){
                     String key = keys.next();
                     JSONObject escooter = escooters.getJSONObject(key);
-                    int escooterId = escooter.getInt("escooterId");
+                    String escooterId = escooter.getString("escooterId");
                     JSONObject gps = escooter.getJSONObject("gps");
                     double latitude = gps.getDouble("latitude");
                     double longitude = gps.getDouble("longitude");
+
                     //切換為ui線程，才能使用google map的更改
                     runOnUiThread(() -> {
                         LatLng Escooter = new LatLng(latitude, longitude);
