@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
             // 如果沒有權限，請求權限
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
         }
+//
     }
 }
